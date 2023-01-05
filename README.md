@@ -1,2 +1,2 @@
 # Challenge-3-CI-CD-Pipeline-for-Python-Script
-CI/CD
+In this challenge you'll create a two-stage CI/CD pipeline for a Python script. You'll start the challenge by creating a new repo that holds a simple Python script. All it needs to do is print "Hello, world." Then you'll create a workflow that's triggered by a push to the repo. The workflow should contain two jobs. The first job should check out the repository and test the script by running it with a Python command. The second job should have a dependency on the first job. If the first job completes successfully, the second job should check out the repository and create an artifact.
